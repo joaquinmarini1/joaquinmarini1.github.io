@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Simple</title>
+    <link rel="stylesheet" href="https://unpkg.com/papercss/dist/paper.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <nav id="arriba"> 
+        <a href="#seccion1" class="btn-small">Integrantes</a>
+        <a href="#seccion2" class="btn-small">Desarrollo</a>
+        <a href="#seccion3" class="btn-small">Minijuego</a>
+    </nav>
+
+    <header class="py-5 mb-4">
+      <h3 class="text-center">Continuidad de los Parques</h1>
+      <h1 class="text-center">TP FINAL - ETAPA 3</h1>
+      <br>
+     </header>
+
+
+    <section id="seccion1">
+        <h2 class="paper-title">Integrantes</h2>
+        <div class="row">
+            <div class="card">
+              <img src="img/joaco.png"
+                <h3>Marini Joaquin - Legajo 119079/7</h3>
+                <p>Soy estudiante de primer año en Diseño Multimedial, en la UNLP. Disfruto mucho aprender sobre tecnologías y metodologías que son totalmente nuevas para mí. Realmente aprendí mucho con esta materia y estoy muy contento con mis resultados. </p>
+            </div>
+            <div class="card">
+              <img src="img/ernes.png"
+                <h3>Lamas Ernestina - Legajo 119064/0</h3>
+                <p>Estudio Diseño Multimedial en la UNLP, estoy en primer año. Elegí esta carrera porque me gustó mucho el plan de estudios. En este primer año disfruté mucho la carrera de Taller, principalmente.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="seccion2">
+        <h2 class="paper-title">Desarrollo</h2>
+        <div class="row">
+            <div class="card">
+                <h3>Etapa 1</h3>
+                <p>En la primer etapa trabajamos la aventura gráfica acerca del cuento que nos tocó, "Continuidad en los Parques". Empezamos diagramando las pantallas en un flujo, y a partir de ahí fuimos descartando y mejorando las ideas.</p>
+            </div>
+            <div class="card">
+                <h3>Etapa 2</h3>
+                <p>Para la segunda etapa logramos desarrollar un minijuego acerca de la historia. Trabajamos en p5.js, específicamente con programación orientada a objetos. Nuestro juego trata sobre esquivar los cuchillos del amante de la historia.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="seccion3">
+        <h2 class="paper-title">Minijuego</h2>
+        <div class="row">
+            <div class="card">
+              <div class="row flex-spaces child-borders">
+                <label class="paper-btn margin" for="modal-1">Abrir Aventura Grafica</label>
+              </div>
+              <input class="modal-state" id="modal-1" type="checkbox">
+              <div class="modal">
+                <label class="modal-bg" for="modal-1"></label>
+                <div class="modal-body">
+                  <label class="btn-close" for="modal-1">X</label>
+                  <iframe src="/tpfinalparte2/index.html" frameborder="0" width="640" height="480"></iframe>
+                </div>
+              </div>            
+            </div>
+        </div>
+    </section>
+
+    <!-- Botón flotante -->
+    <a href="#arriba" class="btn btn-primary btn-lg rounded boton-flotante">
+      <img src="img/106804.png" width="60" height="60" alt="Una flecha">
+    </a>
+
+
+    <footer>
+        <p>&copy; 2024 - PMIW Comision 1</p>
+    </footer>
+</body>
+</html>
